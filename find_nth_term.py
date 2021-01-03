@@ -5,7 +5,7 @@ def fib(n):
         return 1
     # making an array of length n
     array = [None] * n
-    # initializing the values for n = 1 and n = 2
+    # initializing the values for array[0] and array[1] to 1
     array[0] = 1
     array[1] = 1
     # filling up the array by using previous stored values
